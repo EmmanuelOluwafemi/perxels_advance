@@ -309,5 +309,9 @@ video {
     .buttom_content {
         font-size: 1rem;
     }
+
+    .about li {
+        font-size: 1rem;
+    }
 }
 
