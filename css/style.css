@@ -84,6 +84,7 @@ header {
 .hero-content p {
     font-size: 1.25rem;
     color: #03B962;
+    margin-bottom: 0;
     animation: paragraph 2s ease-in-out;
 }
 
@@ -102,8 +103,9 @@ header {
     font-family: ProximaBold, "Helvetica", "Arial", sans-serif;
 }
 
-.hero-content p span {
-    color: #FCD900;
+.smallContent {
+    display: flex;
+    align-items: center;
 }
 
 .hero-content a {
