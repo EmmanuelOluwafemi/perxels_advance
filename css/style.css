@@ -399,16 +399,18 @@ footer .button:hover {
     width: 100vw;
     max-height: 100vw;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 35% 65%;
 }
 
 .bg {
     background-image: linear-gradient(to bottom, #34296b4f, #34296b3d),
         url('../assets/images/basics.jpg');
-    height: 100vh;
+    height: 110vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    max-width: 500px;
+    width: 100%;
 }
 
 .box {
@@ -418,6 +420,13 @@ footer .button:hover {
     justify-content: flex-start;
     padding: 0 2rem;
     padding-top: 2.5rem;
+}
+
+.box h2 {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 1.4rem;
+    font-weight: 700;
 }
 
 .input-group {
